@@ -15,7 +15,6 @@ With advancements in remote sensing, satellites have been collecting Nighttime L
 This paper aims to leverage regression and time series models using VIIRS-derived NTL data to estimate GDP and energy consumption. The core objective is to demonstrate that satellite-derived light intensity correlates positively with economic metrics and can be effectively used for forecasting, especially in low-resource or developing regions.
 
 
-
 ## Data and Preprocessing
 
 ### Data Sources
@@ -67,7 +66,7 @@ This paper aims to leverage regression and time series models using VIIRS-derive
 ---
 
 ### GDP Prediction
-
+(GDP data was gathered through reliable online sources)
 - **Best Model**: XGBoost Regressor  
 - **R² Score**: 0.89 on test data  
 - **RMSE**: Reduced significantly after using log-transformed GDP  
